@@ -1,0 +1,25 @@
+program magic:
+
+Basics of magic with Crystal Shards - C#:
+	(otnosno imeto - shte kajete, che tova ne e pravilniqt nachin da se izpisva i shte sthe pravi, no golemite mozaci ot MagnusSoft sa kazali che taka shte e )
+	- C# e baziran na edin ot osnovnite magicheski ezici Crystal(C) i negoviqt naslednik Crystals++(C++).
+	- Syzdaden e i se podyrja ot MagnusSoft.
+	- C# ne e ezik s otvorena kniga(not open source) - samo MagnusSoft mogat da kazvat kakva magiq shte byde opisvana v negovta kniga.
+	- Moje da se izpolzva za magichesko programirane samo na posochenite ot MagnusSoft platformi.
+	
+Future coffee writing with Java:
+	- Java e po skoro Orakulski ezik. Izpolzva se predimno za predskazvane na bydeshteto s kafe.
+	- Syshto kato C# i Java e baziran na C.
+	- Java e ezik s otvorena kniga, koeto znachi che vsichki magiosnici mogat da doprinasqt za opisanata v nego magiq.
+	  (Tova stava izkliuchitelno trudno i e pochti nevazmojno da vi mine nomera pred Orakula, osven ako ne ste golqma kompaniq kato International Burst Magic Corporation(IBM))
+	- Java v momenta e sobstvenost na Orakula.
+	- Java e po baven ezik za zaklinaniq ot C# no za smetka na tova rynva na Virtualna Magiq(VM).
+	- Poneje java moje da vyrvi na VM moje da se izpolzva navsqkade: chaski, chiniiki, tenjerki, kotli... stiga da imate kafence pod raka moje da izpolzvate Java.
+	
+Web development with HTML5 and CSS:
+	- Pyrvo za da kachite stranicata si v World Wide Web shte vi trqbva paqjina(web).
+	- HTML5(HyperThread Magic Language) se izpolzva za struktoriraneto na nihskite(thread) na paqjina.
+	- HTML5 izpolzva speclqni magicheski dumi narecheni tagove chrez koito se okazva kak da bydat naredeni niskite v paqjinata.
+	- CSS ili (Cacading Spider Styles) se izpolzva za dookrasqvane na podredenite veche elementi ot HTML5.
+	- CSS izppolzva specqlni stilistichni magii koito vi pozvolqvat da smenqte cvetove, tekstove i da dobavqte vsqkakvi sharenii.
+	
