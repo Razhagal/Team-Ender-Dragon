@@ -22,4 +22,10 @@ Web development with HTML5 and CSS:
 	- HTML5 izpolzva speclqni magicheski dumi narecheni tagove chrez koito se okazva kak da bydat naredeni niskite v paqjinata.
 	- CSS ili (Cacading Spider Styles) se izpolzva za dookrasqvane na podredenite veche elementi ot HTML5.
 	- CSS izppolzva specqlni stilistichni magii koito vi pozvolqvat da smenqte cvetove, tekstove i da dobavqte vsqkakvi sharenii.
+
+Funkcionalna web-magiq s JavaScrip:
+	- JavaScript e magicheski eizk syzdaden da osyvarshenstva paqjinite kato im dobavq dopylnitelna funkcionalnost.
+	- JavaScript nai chesto predostavq interaktivnost na paqjinat s usera.
+	- Tova e i edin ot nai-izoilzvanite magicheski ezici za pravene na igri za web.
+	- Nosi mu se leko losho ime na "Cursing" ezik poneje nai chesto dinamichnite magiiki koito izskachat ot web peija sa natrapchivi reklamki i podobni ot koito nqma lesno otyrvane.
 	
