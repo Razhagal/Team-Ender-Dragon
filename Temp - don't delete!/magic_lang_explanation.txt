@@ -28,4 +28,10 @@ Funkcionalna web-magiq s JavaScrip:
 	- JavaScript nai chesto predostavq interaktivnost na paqjinat s usera.
 	- Tova e i edin ot nai-izoilzvanite magicheski ezici za pravene na igri za web.
 	- Nosi mu se leko losho ime na "Cursing" ezik poneje nai chesto dinamichnite magiiki koito izskachat ot web peija sa natrapchivi reklamki i podobni ot koito nqma lesno otyrvane.
+
+Merver magic with php:
+	- PHP e merver-side eizk za proramirane t.e. izpolzva se za zaklinaniq nad magichekskata kutiq za opravlenie na informaciq(merver)
+	- PHP e ezik s otvorena kniga.
+	- PHP i HTML zaedno sa mnogo dobyr izbor za syzdavane na web dinamichni paqjini.
+	- Vypreki che ne se zanimava s vizualnata strana na neshtata PHP e mngo vajen za funkcioniraneto na paqjinite v swetovnata mreja.
 	
