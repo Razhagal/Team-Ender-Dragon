@@ -1,0 +1,101 @@
+﻿/*From common.css*/
+body, div, header, section, article, footer, h1, h2, nav, ul, li, p, a, figure, figcaption {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#wrapper > header figure {
+    height:200px;
+}
+
+#wrapper > header figure figcaption {
+    display: none;
+}
+
+/*Temporal border to outline the elements*/
+header, section, article, aside, nav, div, footer {
+    border: 1px solid black;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 95%;
+}
+
+#wrapper > header {
+    margin-bottom: 10px;
+}
+
+    #wrapper > header figure img {
+        width: 100%;
+    }
+
+    #wrapper > header h1 {
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+
+nav ul.main-menu {
+
+}
+
+    .inner-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: none;
+        background-color: red;
+    }
+
+    nav ul.main-menu > li {
+        position: relative;
+        display: inline-block;
+    }
+
+        .main-menu > li:hover .inner-menu {
+            display: block;
+        }
+
+/*
+    section {
+    float: left;
+    margin: 0 0 50px 10px;
+    width: 60%;
+}
+    */
+
+aside {
+    float: left;
+    margin: 0 0 50px 20px;
+    width: 35%;
+}
+
+#wrapper > footer {
+    clear: both;
+    margin-bottom:0;/*added*/
+    padding-bottom:5%;/*added*/
+}
+
+/*Added*/
+section {
+    float: left;
+    margin: 0 0 5% 5%;
+    width: 90%;
+    height:80%;
+}
+
+    .article-logo > img {
+        width:5%;
+        height:5%;
+    }
+
+section article p {
+    height:300px;/*px just for example*/
+}
+
+section article .article-header {
+
+}
