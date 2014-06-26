@@ -108,7 +108,7 @@ section article .article-footer {
 
 section article .article-footer > div {
     display:inline-block;
-    width:10%;
+    /*width:10%;*//*cause overflow of the text*/
     text-decoration-style:none;
     background-color:#808080;/*colour to be changed*/
     margin-bottom:1%;
