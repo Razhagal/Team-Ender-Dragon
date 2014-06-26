@@ -99,3 +99,21 @@ section article p {
 section article .article-header {
 
 }
+
+section article .article-footer {
+    clear:both;
+    margin-bottom:0;
+    text-align:right;
+}
+
+section article .article-footer > div {
+    display:inline-block;
+    width:10%;
+    text-decoration-style:none;
+    background-color:#808080;/*colour to be changed*/
+    margin-bottom:1%;
+    margin-top:1%;
+    margin-right:2%;
+    text-align:center;
+    
+}
