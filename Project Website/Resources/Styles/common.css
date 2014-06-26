@@ -1,75 +1,94 @@
-body, div, header, section, article, footer, h1, h2, nav, ul, li, p, a, figure, figcaption {
+@font-face {
+    font-family: potter;
+    src: url('../fonts/harryp.TTF');
+}
+
+body, div, header, section, article, footer, h1, h2, nav, ul, li, p, a, figure, figcaption, img {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-decoration: none;
 }
 
-#wrapper > header figure {
-    height:200px;
-}
-
-#wrapper > header figure figcaption {
-    display: none;
-}
-
 /*Temporal border to outline the elements*/
-header, section, article, aside, nav, div, footer {
+section, article, aside, nav, footer {
     border: 1px solid black;
+}
+
+body {
+    background: url('../Images/body-background.jpg') no-repeat;
+    background-size: cover;
 }
 
 #wrapper {
     margin: 0 auto;
-    width: 95%;
+    width: 93%;
+    font-family: 'PT Sans',Tahoma,sans-serif;
+    font-size: 62.5%;
+    background-color: rgba(240, 240, 240, 0.4);
 }
 
 #wrapper > header {
     margin-bottom: 10px;
+    width: 100%;
 }
+
+    #wrapper > header h1 {
+        display: none;
+    }
+
+    #wrapper > header figure figcaption {
+        display: none;
+    }
 
     #wrapper > header figure img {
         width: 100%;
+        display: block;
     }
 
-    #wrapper > header h1 {
-        position: absolute;
-        top: 15%;
-        left: 5%;
-    }
 
-nav ul.main-menu {
-
+nav a {
+    color: black;
 }
-
-    .inner-menu {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        display: none;
-        background-color: red;
-    }
 
     nav ul.main-menu > li {
         position: relative;
         display: inline-block;
+        font-size: 2.1em;
+        border-radius: 10px;
     }
 
-        .main-menu > li:hover .inner-menu {
-            display: block;
+        .main-menu > li:hover {
+            background-color: rgba(240, 240, 240, 0.7);
         }
 
-section {
-    float: left;
-    margin: 0 0 50px 10px;
-    width: 60%;
-}
+    .main-menu > li  a {
+        display: block;
+        padding: 5px 20px;
+    }
 
-aside {
-    float: left;
-    margin: 0 0 50px 20px;
-    width: 35%;
-}
+        .inner-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: none;
+            width: 200px;
+            font-size: 1.1rem;
+            background-color: #234465;
+        }
+
+            .inner-menu li {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+                .inner-menu li:last-child {
+                    border: none;
+                }
+
+            .main-menu > li:hover .inner-menu {
+                display: block;
+            }
 
 #wrapper > footer {
-    clear: both;
+    width: 100%;
 }
