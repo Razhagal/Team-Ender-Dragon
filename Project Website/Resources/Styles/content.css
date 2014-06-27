@@ -29,10 +29,12 @@ section article .article-footer > a {
     /*width:10%;*//*cause overflow of the text*/
     text-decoration-style:none;
     /*background-color:#808080;*/
-	/*border:1px outset #000;*/
+	border:1px outset #000;
     margin-bottom:1%;
     margin-top:1%;
     margin-right:2%;
     text-align:center;
 	font-size:4em;
+	line-height:0.5em;
+	padding-bottom:0.7%;
 }
