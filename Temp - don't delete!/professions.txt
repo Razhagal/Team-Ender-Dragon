@@ -1,0 +1,34 @@
+Crystal Mage, Java Oracul, Web Master
+
+-----------------------------------------------------------------------------
+
+C# Mage (TRAINEE)
+
+C# Mage ili Crystal Mage sa magiosnici koito valdeqt ezika Crystal Shards v dylbochina.
+Te mogat da izpolzvat vsichki platformi na Magnusoft kakto i vsichki bazirani na tqh instrumenti i magicheski ramki.
+Chisti C# Mage-ove se trysqt rqdko ponje v dneshniqt dinamichen svqt izpylnen s magiq sa nujni i drugi magicheski umeniq za da e edin mage na visoko nivo.
+
+Period na obuchenie: 2 godini
+Ochakvano vyznagrajdenie sled pyrva govina: 70-90 zlatni moneti
+
+-----------------------------------------------------------------------------
+
+Java Oracul (TRAINEE)
+
+Java Oraculite sa vid magiosnici koito izpolzvat osnovno ezika Java.
+Oraculate izpolzvat dylbokite si poznaniq za razrabotka na magiq i vyzmojnostite na Java da se izpolzva pod VM(Virtual Magic) za da pravqt zaklinaniq navsqkade i po vqsko vreme.
+Poneje ezikat Java e dosta truden ima golqmo tyrsene na Java orakuli i syotvetno vyznagrajdenieto za tqh e po visoko.
+
+Period na obuchenie: 2 godini
+Ochakvano vyznagrajdenie sled pyrva govina: 100-120 zlatni moneti
+
+-----------------------------------------------------------------------------
+
+Web Master (TRAINEE)
+
+Web Master e magiosnik koito se zanimava s izgrajdaneto i omagiosvaneto na syvremenni web saitove(paqjini) kato se stremi te da sa maksimalno udobni za potrebitelite.
+Edin Web Master trqbva da vladee back-end  omagiosvane(glavno rabota s bazi ot danni i ezika PHP i opravlenie na merveri) i front-end omagiosvane (rabota po vizualanata chast na saita osnovno s HTML5 i CSS).
+Web Master-ite sa mnogo tyrseni v dneshno vreme poradi golqmata socializaciq i tova che vsichki sa svyrzani v World Wide Web.
+
+Period na obuchenie: 2 godini
+Ochakvano vyznagrajdenie sled pyrva govina: 80-110 zlatni moneti
