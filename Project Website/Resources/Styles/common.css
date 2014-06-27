@@ -1,8 +1,3 @@
-@font-face {
-    font-family: potter;
-    src: url('../fonts/harryp.TTF');
-}
-
 body, div, header, section, article, footer, h1, h2, nav, ul, li, p, a, figure, figcaption, img {
     margin: 0;
     padding: 0;
@@ -11,75 +6,79 @@ body, div, header, section, article, footer, h1, h2, nav, ul, li, p, a, figure, 
 }
 
 /*Temporal border to outline the elements*/
-section, article, aside, nav, footer {
+section, article, aside, footer {
     border: 1px solid black;
 }
 
 body {
-    background: url('../Images/body-background.jpg') no-repeat;
-    background-size: cover;
+    background: url('../Images/body-background.jpg') no-repeat center center;
+    background-size: auto;
 }
 
 #wrapper {
     margin: 0 auto;
     width: 93%;
-    font-family: 'PT Sans',Tahoma,sans-serif;
+    font-family: 'PT Sans', Tahoma, sans-serif;
     font-size: 62.5%;
     background-color: rgba(240, 240, 240, 0.4);
+    /*border: 2px solid black;*/
 }
 
 #wrapper > header {
     margin-bottom: 10px;
     width: 100%;
+    border-bottom: 1px solid black;
 }
 
-    #wrapper > header h1 {
-        display: none;
-    }
-
-    #wrapper > header figure figcaption {
+    #wrapper > header h1, #wrapper > header figure figcaption {
         display: none;
     }
 
     #wrapper > header figure img {
-        width: 100%;
         display: block;
+        width: 100%;
     }
 
-
-nav a {
-    color: black;
+nav ul.main-menu > li {
+    position: relative;
+    display: inline-block;
+    font-size: 2.1em;
+    border-radius: 10px;
 }
-
-    nav ul.main-menu > li {
-        position: relative;
-        display: inline-block;
-        font-size: 2.1em;
-        border-radius: 10px;
-    }
-
-        .main-menu > li:hover {
-            background-color: rgba(240, 240, 240, 0.7);
-        }
-
-    .main-menu > li  a {
+    .main-menu > li a {
         display: block;
         padding: 5px 20px;
+        color: #000;
     }
+
+    .main-menu > li:hover {
+        background-color: rgba(240, 240, 240, 0.7);
+    }
+
+        .drop-down {
+            background: url('../Images/DownArrow.png') no-repeat 96% 60%;
+        }
 
         .inner-menu {
             position: absolute;
             top: 100%;
             left: 0;
             display: none;
-            width: 200px;
-            font-size: 1.1rem;
+            width: 250px;
+            font-size: 1rem;
             background-color: #234465;
+            border-radius: 10px;
         }
 
             .inner-menu li {
                 border-bottom: 1px solid rgba(255, 255, 255, 0.2);
             }
+                
+                .inner-menu li a {
+                    display: block;
+                    padding: 10px 0 10px 20px;
+                    color: #ccaa00
+                }    
 
                 .inner-menu li:last-child {
                     border: none;
@@ -90,5 +89,7 @@ nav a {
             }
 
 #wrapper > footer {
+    padding: 5px 20px;
     width: 100%;
+    font-size: 2em;
 }
