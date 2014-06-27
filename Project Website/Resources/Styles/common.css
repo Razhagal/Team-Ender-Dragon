@@ -3,16 +3,18 @@ body, div, header, section, article, footer, h1, h2, nav, ul, li, p, a, figure, 
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 
 /*Temporal border to outline the elements*/
-section, article, aside, footer {
+section, article, aside {
     border: 1px solid black;
 }
 
 body {
-    background: url('../Images/body-background.jpg') no-repeat center center;
-    background-size: auto;
+    background: url('../Images/body-background.jpg') repeat-y center top;
+    background-size: cover;
 }
 
 #wrapper {
@@ -34,10 +36,23 @@ body {
         display: none;
     }
 
-    #wrapper > header figure img {
+    #wrapper > header  img {
         display: block;
         width: 100%;
     }
+
+    #wrapper > header figure {
+        position: absolute;
+        top: 0;
+        left: 10%;
+        display: inline-block;
+        width: 20%;
+    }
+
+        #wrapper > header figure img {
+            display: block;
+            width: 100%;
+        }
 
 nav ul.main-menu > li {
     position: relative;
@@ -92,4 +107,5 @@ nav ul.main-menu > li {
     padding: 5px 20px;
     width: 100%;
     font-size: 2em;
+    border-top: 1px solid black;
 }
