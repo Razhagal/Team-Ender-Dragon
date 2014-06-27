@@ -104,25 +104,38 @@ nav ul.main-menu > li {
             }
 
 #wrapper > footer {
-    
-    padding: 5px 20px;
+    display: flex;
+    display: -webkit-flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 15px 20px;
     width: 100%;
-    font-size: 2em;
-    border-top: 1px solid black;
+    font-size: 1.7em;
+    color: #fff;
     background-color:black;
-    color:white;   
 }
-footer div{
-    display:inline-block;
-    width:32%;
-    padding:30px;
-    vertical-align:top;
-    color:#551A8B;
-}
-footer h4, h5{
-    margin: 0 0 8px;
-    color:#67676C
-}
-footer li{
-    padding-left:8px;
-}
+
+    #wrapper > footer .column {
+        display:inline-block;
+        width:30%;
+        color:#551A8B;
+        vertical-align: top;
+    }
+
+        .column ul li a {
+            color:#551A8B;
+        }
+
+    #wrapper > footer h2 {
+        margin: 0 0 8px;
+        font-weight: normal;
+        font-size: 1.2em;
+        color:#fff;
+    }
+
+        .validators {
+            display: block;
+            margin: 5px auto;
+            width: 100%;
+            text-align: right;
+        }
