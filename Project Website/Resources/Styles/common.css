@@ -8,7 +8,7 @@ body, div, header, section, article, footer, h1, h2, h3, nav, ul, li, p, a, figu
 }
 
 /*Temporal border to outline the elements*/
-section, article, aside {
+article, aside {
     border: 1px solid black;
 }
 
@@ -78,7 +78,7 @@ nav ul.main-menu > li {
             top: 100%;
             left: 0;
             display: none;
-            width: 250px;
+            width: 300px;
             font-size: 1rem;
             background-color: #234465;
             border-radius: 10px;
@@ -99,19 +99,19 @@ nav ul.main-menu > li {
                 }
 
                 .inner-menu li:hover {
-                    background: url('../Images/something.png') no-repeat 3% center;
+                    background: url('../Images/something.png') no-repeat 4% center;
                     background-color: #09243F;
                 }
 
                 .inner-menu li a {
                     display: block;
-                    padding: 10px 0 10px 30px;
+                    padding: 10px 0 10px 35px;
                     color: #ccaa00;
                     font-size: 1.1em;
                 }
 
             .main-menu > li:hover .inner-menu {
-                display: block;
+                display: block; /*!!!!!!!*/
             }
 
 #wrapper > footer {
