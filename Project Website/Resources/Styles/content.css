@@ -15,7 +15,7 @@
 
             article header h2 {
                 display: inline-block;
-                margin-top: 7%;
+                margin-top: 6%;
                 width: 70%;
                 font-size: 2.9em;
                 text-align: center;
@@ -27,6 +27,14 @@
                 margin-right: 2%;
                 width: 20%;
             }
+
+                article .trainer figure {
+                    width: 25%;
+                }
+
+                article .trainer h2 {
+                    width: 70%;
+                }
 
                 .article-logo figcaption {
                     display: none;
@@ -53,6 +61,7 @@
                 padding: 0.7% 1.5%;
 				font-size: 1.6em;
 				text-align:center;
+                color: #000;
                 background-color: rgba(200, 200, 200, 0.6);
                 border: 1px solid white;
                 border-radius: 5px;
