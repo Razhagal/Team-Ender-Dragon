@@ -83,20 +83,32 @@ nav ul.main-menu > li {
             font-size: 1rem;
             background-color: #234465;
             border-radius: 10px;
+            z-index: 1;
         }
 
             .inner-menu li {
                 border-bottom: 1px solid rgba(255, 255, 255, 0.2);
             }
                 
-                .inner-menu li a {
-                    display: block;
-                    padding: 10px 0 10px 20px;
-                    color: #ccaa00
-                }    
+                .inner-menu li:first-child {
+                    border-radius: 10px 10px 0 0;
+                }
 
                 .inner-menu li:last-child {
+                    border-radius: 0 0 10px 10px;
                     border: none;
+                }
+
+                .inner-menu li:hover {
+                    background: url('../Images/something.png') no-repeat 3% center;
+                    background-color: #09243F;
+                }
+
+                .inner-menu li a {
+                    display: block;
+                    padding: 10px 0 10px 30px;
+                    color: #ccaa00;
+                    font-size: 1.1em;
                 }
 
             .main-menu > li:hover .inner-menu {
@@ -112,7 +124,7 @@ nav ul.main-menu > li {
     width: 100%;
     font-size: 1.7em;
     color: #fff;
-    background-color:black;
+    background-color: #000;
 }
 
     #wrapper > footer .column {
@@ -126,6 +138,55 @@ nav ul.main-menu > li {
             color:#551A8B;
         }
 
+        .social li {
+            display: inline-block;
+        }
+
+        .social a {
+            display: block;
+            padding: 14px 18px;
+        }
+
+            .softwards {
+                background: url('../Images/hat-sprite.png') no-repeat center 5px;
+            }
+
+                .softwards:hover {
+                    background-position: center -24px;
+                }
+
+            .twitter {
+                background: url('../Images/twitter-sprite.png') no-repeat center top;
+            }
+
+                .twitter:hover {
+                    background-position: center -30px;
+                }
+
+            .facebook {
+                background: url('../Images/facebook-sprite.png') no-repeat center top;
+            }
+
+                .facebook:hover {
+                    background-position: center -30px;
+                }
+
+            .googleplus {
+                background: url('../Images/googleplus-sprite.png') no-repeat center top;
+            }
+
+                .googleplus:hover {
+                    background-position: center -30px;
+                }
+
+            .youtube {
+                background: url('../Images/youtube-sprite.png') no-repeat center 3px;
+            }
+
+                .youtube:hover {
+                    background-position: center -23px;
+                }
+
     #wrapper > footer h2 {
         margin: 0 0 8px;
         font-weight: normal;
@@ -135,7 +196,7 @@ nav ul.main-menu > li {
 
         .validators {
             display: block;
-            margin: 5px auto;
+            margin-top: 30px;
             width: 100%;
             text-align: right;
         }
