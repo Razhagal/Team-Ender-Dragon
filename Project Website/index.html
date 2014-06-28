@@ -6,6 +6,8 @@
     <title>Welcome to SoftWards University</title>
     <link href="Resources/Styles/common.css" rel="stylesheet" />
     <link href="Resources/Styles/main-page.css" rel="stylesheet" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="Resources/Scripts/dropit.js"></script>
 </head>
 <body>
     <div id="wrapper">
@@ -19,7 +21,7 @@
                 <figcaption>Softwards University</figcaption>
             </figure>
             <nav>
-                <ul class="main-menu">
+                <ul id="main-menu">
                     <li>
                         <a href="index.html">Начало</a>
                     </li>
@@ -61,6 +63,17 @@
                         </ul>
                     </li>
                     <li>
+                        <a href="#" class="drop-down">Семинари</a>
+                        <ul class="inner-menu">
+                            <li>
+                                <a href="moodle-glass.html">Moodle Glass</a>
+                            </li>
+                            <li>
+                                <a href="magic-copyrights.html">Авторско право при разработката на магии</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
                         <a href="#">Контакти</a>
                     </li>
                     <li>
@@ -72,37 +85,72 @@
         <section>
             <article>
                 <header>
+                    <figure>
+                        <img src="Resources/Images/wandtop_bg.jpg" alt="WandTop.bg banner" />
+                        <figcaption>WandTop.bg</figcaption>
+                    </figure>
                     <h1>
-                        Some news header
+                        Отстъпки от WandTop.bg
                     </h1>
                 </header>
                 <p>
-                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    WandTop.bg прави специална промоция за чираците от Софтуардс на определени модели магически пръчки.<br />
+                    Уандовете са последен писък на технологията, специално пригодени за разработване на магически заклинания като
+                    напълно отговарят на стандартите на един magic developer.<br />
+                    За да се включите в промоцията трябва да сте чирак в Софтуардс и да сте преминали поне първо ниво на магия.
+                    Поръчките могат да се правят от разстояние с писмо, като самата пръчка ще ви бъде доставена с експресна сова.
                 </p>
             </article>
             <article>
                 <header>
+                    <figure>
+                        <img src="Resources/Images/gringotts_logo.png" alt="Gringotts Bank logo" />
+                        <figcaption>Gringotts Bank</figcaption>
+                    </figure>
                     <h1>
-                        Some news header
+                        Спонсорство за млади магове от Гринготс
                     </h1>
                 </header>
                 <p>
-                    Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel.
+                    Разработването на магия е сложен процес и гоблините от Гринготс знаят това. Сред днешните чираци са и бъдещите 
+                    магьосници, които ще разработват полезни магически приложения за Гринготс.<br />
+                    Специално за най-добрите от Софтуардс - Гринготс отпускат спонсорство за да насърчат силните и да подпомогнат 
+                    можещите в затруднение.
+                    <br />
+                    <br />
+                    Изисквания:<br />
+                    - За да кандидатствате за спонсорство трябва да имате много добър успех в Софтуардс;<br />
+                    - Спонсорството е в размер на <span>1000 златни монети</span>;<br />
+                    - Спонсорството може да се усвой на 3 транша.
                 </p>
             </article>
         </section>
         <aside>
+            <header>
+                <h2>
+                    Предстоящи семинари
+                </h2>
+            </header>
             <ul>
-                <li>not</li>
-                <li>really</li>
-                <li>sure</li>
-                <li>what</li>
-                <li>i</li>
-                <li>had</li>
-                <li>in</li>
-                <li>mind</li>
-                <li>for</li>
-                <li>this</li>
+                <li>
+                    <h3>Moodle Glass</h3>
+                    <p>
+                        Заповядайте на безплатен семинар на тема "Moodle Glass" - възможност и разработки.<br />
+                        Погледнете през погледа на магията с лектор г-н Муудъл<br />
+                        Семинарът ще се проведе на 30 май (петък) от 19:30 до 22:00 в замъка на Софтуардс.
+                        <a href="moodle-glass.html">Още...</a>
+                    </p>
+                </li>
+                <li>
+                    <h3>
+                        Авторско право при разработката на магии
+                    </h3>
+                    <p>
+                        Заповядайте на безплатен семинат на тема "Авторско право при разработка на магии" с лектор Магус Денем' Тор.<br />
+                        Семинарът ще се проведе на 26 юни (четвъртък) от 19:30 до 22:00 в замъка на Софтуардс.
+                        <a href="magic-copyrights.html">Още...</a>
+                    </p>
+                </li>
             </ul>
         </aside>
         <footer>

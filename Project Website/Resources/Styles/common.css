@@ -7,11 +7,6 @@ body, div, header, section, article, footer, h1, h2, h3, nav, ul, li, p, a, figu
     -moz-box-sizing: border-box;
 }
 
-/*Temporal border to outline the elements*/
-article, aside {
-    border: 1px solid black;
-}
-
 body {
     background: url('../Images/body-background.jpg') repeat-y center top;
     background-size: cover;
@@ -22,7 +17,7 @@ body {
     width: 93%;
     font-family: 'PT Sans', Tahoma, sans-serif;
     font-size: 62.5%;
-    background-color: rgba(240, 240, 240, 0.5);
+    background-color: rgba(240, 240, 240, 0.4);
 }
 
 #wrapper > header {
@@ -53,20 +48,25 @@ body {
             width: 100%;
         }
 
-nav ul.main-menu > li {
+#main-menu > li {
     position: relative;
     display: inline-block;
     font-size: 2.1em;
     border-radius: 10px;
 }
-    .main-menu > li a {
+    #main-menu > li > a {
         display: block;
         padding: 5px 20px;
         color: #000;
     }
 
-    .main-menu > li:hover {
+    #main-menu > li:hover {
         background-color: rgba(240, 240, 240, 0.7);
+        -webkit-transition: background-color 0.3s ease;
+        -moz-transition: background-color 0.3s ease;
+        -o-transition: background-color 0.3s ease;
+        -ms-transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease;
     }
 
         .drop-down {
@@ -101,6 +101,11 @@ nav ul.main-menu > li {
                 .inner-menu li:hover {
                     background: url('../Images/something.png') no-repeat 4% center;
                     background-color: #09243F;
+                    -webkit-transition: background-color 0.3s ease;
+                    -moz-transition: background-color 0.3s ease;
+                    -o-transition: background-color 0.3s ease;
+                    -ms-transition: background-color 0.3s ease;
+                    transition: background-color 0.3s ease;
                 }
 
                 .inner-menu li a {
@@ -109,10 +114,6 @@ nav ul.main-menu > li {
                     color: #ccaa00;
                     font-size: 1.1em;
                 }
-
-            .main-menu > li:hover .inner-menu {
-                display: block; /*!!!!!!!*/
-            }
 
 #wrapper > footer {
     display: flex;
