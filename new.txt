@@ -1,0 +1,114 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crystal Shards</title>
+    <link href="Resources/Styles/common.css" rel="stylesheet" />
+    <link href="Resources/Styles/content.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Softwards University</h1>
+            <img src="Resources/Images/header-background.png" alt="Softwards University" />
+            <figure>
+                <img src="Resources/Images/softward-logo.png" alt="Softwards University" />
+                <figcaption>Softwards University</figcaption>
+            </figure>
+
+            <nav>
+                <ul class="main-menu">
+                    <li>
+                        <a href="index.html">Начало</a>
+                    </li>
+                    <li>
+                        <a href="professions.html">Професии</a>
+                    </li>
+                    <li>
+                        <a href="#" class="drop-down">Преподаватели</a>
+                        <ul class="inner-menu">
+                            <li>
+                                <a href="nakov.html">Светлин Наков</a>
+                            </li>
+                            <li>
+                                <a href="vlado.html">Владимир Георгиев</a>
+                            </li>
+                            <li>
+                                <a href="kurtev.html">Теодор Куртев</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="drop-down">Курсове</a>
+                        <ul class="inner-menu">
+                            <li>
+                                <a href="csharp.html">Crystal Shards</a>
+                            </li>
+                            <li>
+                                <a href="java.html">Java</a>
+                            </li>
+                            <li>
+                                <a href="javaScript.html">JavaScript</a>
+                            </li>
+                            <li>
+                                <a href="php.html">PHP</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Контакти</a>
+                    </li>
+                    <li>
+                        <a href="#">За нас</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+			<header>
+				<h1>
+					C#
+				</h1>
+				<figure class="article-logo">
+					<img src="#" />
+				</figure>
+			</header>
+            <article>
+                <header>
+                    <h3>
+                        Basics of magic with Crystal Shards - C#:
+                    </h3>
+                </header>
+				<ul>
+                    <li>
+                        (otnosno imeto - shte kajete, che tova ne e pravilniqt nachin da se izpisva i shte sthe pravi, no golemite mozaci ot MagnusSoft sa kazali che taka shte e )
+                    </li>
+                    <li>
+                         C# e baziran na edin ot osnovnite magicheski ezici Crystal(C) i negoviqt naslednik Crystals++(C++).
+                    </li>
+                    <li>
+                         Syzdaden e i se podyrja ot MagnusSoft.
+                    </li>
+                    <li>
+                         C# ne e ezik s otvorena kniga(not open source) - samo MagnusSoft mogat da kazvat kakva magiq shte byde opisvana v negovta kniga.
+                    </li>
+                    <li>
+                         Moje da se izpolzva za magichesko programirane samo na posochenite ot MagnusSoft platformi.
+                    </li>
+                   
+                </ul>  
+				<footer class="article-footer">
+                    <a>&#8668;</a>
+                    <a href="java.html">&#8669;</a>
+                </footer>
+            </article>
+        </section>
+        <footer>
+            <p>
+                Some footer text + html5 and css3 validator banners in the corner
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
+
