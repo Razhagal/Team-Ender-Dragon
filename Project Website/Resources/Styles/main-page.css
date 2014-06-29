@@ -97,8 +97,6 @@ aside {
             }
 
 @media screen and (max-width: 820px) {
-    
-
     section, aside {
         float: none;
         margin: 0 auto;
@@ -123,5 +121,27 @@ aside {
                 width: 46%;
                 vertical-align: top;
                 text-align: left;
+                -webkit-transition: width 0.5s ease;
+                -moz-transition: width 0.5s ease;
+                -o-transition: width 0.5s ease;
+                -ms-transition: width 0.5s ease;
+                transition: width 0.5s ease;
             }
+}
+
+@media screen and (max-width: 640px) {
+    aside ul li {
+        width: 95%;
+        -webkit-transition: width 0.5s ease;
+        -moz-transition: width 0.5s ease;
+        -o-transition: width 0.5s ease;
+        -ms-transition: width 0.5s ease;
+        transition: width 0.5s ease;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    section article, aside {
+        font-size: 1.15em;
+    }
 }

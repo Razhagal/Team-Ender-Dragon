@@ -64,6 +64,22 @@
                     width: 100%;
                 }
             
+        article.contacts header .article-logo, article.contacts header h2 {
+            display: block;
+            float: none;
+            width: 100%;
+            text-align: center;
+        }
+
+            .contacts header h2 {
+                margin-top: 2%;
+            }
+
+            article.contacts header .article-logo img {
+                display: inline-block;
+                width: 50%;
+            }
+
         article p {
             padding: 1%;
             text-indent: 2em;
@@ -87,21 +103,28 @@
                 text-shadow: 1px 1px 1px#000;
             }
 			
-		article #map{
-			display: inline-block;
-			margin: 2%;
-			width: 96%;
+		#map{
+		    display: inline-block;
+		    margin: 2%;
+		    width: 96%;
 		}
 		
-			#map img{
+			#map img {
 				display: block;
 				width: 100%;
 			}
 			
 			#map figcaption {
-				text-indent: 2em;
-				font-size: 1.7em;
+                display: none;
 			}
+
+        section article figure, h2 {
+            -webkit-transition: width 0.5s ease;
+            -moz-transition: width 0.5s ease;
+            -o-transition: width 0.5s ease;
+            -ms-transition: width 0.5s ease;
+            transition: width 0.5s ease;
+        }
 
 		article footer {
 			margin-top: 2%;
@@ -143,5 +166,48 @@
 
     section article header .center-header {
         width: 45%;
+    }
+
+    section article figure, h2 {
+        -webkit-transition: width 0.5s ease;
+        -moz-transition: width 0.5s ease;
+        -o-transition: width 0.5s ease;
+        -ms-transition: width 0.5s ease;
+        transition: width 0.5s ease;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section article header h2 {
+        margin-top: 8%;
+        font-size: 2.5em;
+    }
+
+    section article .trainer figure {
+        width: 35%;
+    }
+
+    section article .trainer h2 {
+        width:60%;
+    }    
+
+    section article figure, h2 {
+        -webkit-transition: width 0.5s ease;
+        -moz-transition: width 0.5s ease;
+        -o-transition: width 0.5s ease;
+        -ms-transition: width 0.5s ease;
+        transition: width 0.5s ease;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    section article header h2 {
+        font-size: 2.4em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    section article header h2 {
+        font-size: 2.2em;
     }
 }
